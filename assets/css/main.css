@@ -1994,12 +1994,17 @@ input, select, textarea {
 			color: #EA8A95;
 			display: block;
 			margin: 0 0 1.5em 0;
-			cursor: default;
+			/* cursor: default; */
+			cursor: pointer;
 		}
 
 			.icon.featured:before {
 				font-size: 6em;
 			}
+		
+		.clickable {
+			cursor: pointer;
+		}
 
 /* Wrappers */
 
