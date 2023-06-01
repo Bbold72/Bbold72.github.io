@@ -2543,7 +2543,7 @@ input, select, textarea {
   place-items: center;
   border-radius: 12px;
   box-shadow: 10px 10px 40px hsla(0, 0%, 0%, 0.1);
-  cursor: help;
+  cursor: default;
 }
 
 .skill-card:hover .tooltip {
